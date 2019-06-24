@@ -13,6 +13,8 @@ void createImage()
     for (int y = 0; y < COLUMN; y++)
       image[x][y] = 255;
 
+  printf("hi");
+  
   image[7][6] = 50;
   image[7][7] = 28;
   image[7][8] = 19;
